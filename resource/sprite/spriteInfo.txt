@@ -1,0 +1,143 @@
+#SPRITES 17
+IDLE 2 ../../resource/sprite/slime/idle.png
+0	24	177	19	15
+1	103	178	21	14
+MOVE 5 ../../resource/sprite/slime/move.png
+0	105	176	19	16
+1	185	175	20	17
+2	265	174	21	18
+3	345	175	21	17
+4	427	175	19	17
+JUMP 11 ../../resource/sprite/slime/jump.png
+0	24	177	19	15
+1	102	181	23	11
+2	187	155	13	21
+3	266	149	15	19
+4	344	149	19	15
+5	423	148	21	13
+6	504	149	19	15
+7	586	149	15	19
+8	667	155	13	21
+9	742	181	23	11
+10	824	177	19	15
+SWALLOW 13 ../../resource/sprite/slime/swallow.png
+0	24	177	19	15
+1	104	175	22	17
+2	184	170	33	22
+3	264	168	39	24
+4	344	169	40	23
+5	424	169	40	23
+6	504	170	38	22
+7	584	171	36	21
+8	664	171	34	21
+9	744	173	32	19
+10	824	174	28	18
+11	904	176	25	16
+12	984	176	22	16
+HURT 2	../../resource/sprite/slime/hurt.png
+0	24	177	19	15
+1	103	177	18	15
+DEAD 13 ../../resource/sprite/slime/dead.png
+0	24	177	19	15
+1	104	178	19	14
+2	182	179	23	13
+3	260	181	27	11
+4	338	183	31	9
+5	418	185	31	7
+6	497	186	33	6
+7	577	188	33	4
+8	661	181	25	11
+9	742	180	23	12
+10	822	179	20	13
+11	911	179	9	13
+12	992	178	8	14
+MOVEFALL 2 ../../resource/sprite/slime/jump.png
+0	667	155	13	21
+1	742	181	23	11
+MOVEJUMP 2 ../../resource/sprite/slime/jump.png
+0	187	155	13	21
+1	266	149	15	19
+GREYPORTALLEFT 9 ../../resource/sprite/map/GreyPortalLeft.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+BLUEPORTALLEFT 9 ../../resource/sprite/map/BluePortalLeft.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+YELLOWPORTALLEFT 9 ../../resource/sprite/map/YellowPortalLeft.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+GREENPORTALLEFT 9 ../../resource/sprite/map/GreenPortalLeft.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+GREYPORTALRIGHT 9 ../../resource/sprite/map/GreyPortalRight.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+BLUEPORTALRIGHT 9 ../../resource/sprite/map/BluePortalRight.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+YELLOWPORTALRIGHT 9 ../../resource/sprite/map/YellowPortalRight.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+GREENPORTALRIGHT 9 ../../resource/sprite/map/GreenPortalRight.png
+0	8	2	15	28
+1	40	2	15	29
+2	72	1	16	30
+3	104	1	16	30
+4	135	3	16	28
+5	167	2	16	29
+6	199	2	16	27
+7	233	2	14	27
+8	264	2	15	28
+FROG 2 ../../resource/sprite/FrogSpritesheet.png
+0	2	3	11	10
+1	17	0	14	14
+

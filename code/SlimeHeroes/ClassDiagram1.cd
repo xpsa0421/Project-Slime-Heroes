@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEEBAAAAAAAAQAAACIAAACAAAAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGameScreen">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="_colliderInfo" Hidden="true" />
+      <Field Name="_colliderTextures" Hidden="true" />
+      <Field Name="_colourCollected" Hidden="true" />
+      <Field Name="_defaultShader" Hidden="true" />
+      <Field Name="_portalColorInfo" Hidden="true" />
+      <Field Name="_portalTPInfo" Hidden="true" />
+      <Field Name="_propInfo" Hidden="true" />
+      <Field Name="_propsTextures" Hidden="true" />
+      <Method Name="Generate" Hidden="true" />
+      <Method Name="GenerateBackground" Hidden="true" />
+      <Method Name="GenerateDialogs" Hidden="true" />
+      <Method Name="GenerateGuides" Hidden="true" />
+      <Method Name="GeneratePlayer" Hidden="true" />
+      <Method Name="GeneratePortals" Hidden="true" />
+      <Method Name="GenerateWorld" Hidden="true" />
+      <Method Name="LoadInfoF" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>DEAQAJAAAAABBQgAAAJECAQIAAAAAAAAAIAEAcAAgAA=</HashCode>
+      <FileName>InGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGameScreen1" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAQABAAAKCABQCAAAEEAAAAAACAAAAAAJACABAAAAE=</HashCode>
+      <FileName>InGameScreen1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGameScreen2" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQABAAAAAABQAAAAAEAAAAAAKAAAAAAJACCBAAAAE=</HashCode>
+      <FileName>InGameScreen2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroScene">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="_elapsedTime" Hidden="true" />
+      <Field Name="_intro" Hidden="true" />
+      <Method Name="Frame" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Method Name="Release" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAEBACEBAAAAE=</HashCode>
+      <FileName>IntroScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="DynamicObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.188" Y="1.941" />
+        <Point X="13.188" Y="2.625" />
+        <Point X="11.75" Y="2.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AA4AAASAAAAACAAQICAACBARABAAgkAAABCAAAAAgAE=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Portal" Collapsed="true">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="StaticObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.938" Y="1.941" />
+        <Point X="15.938" Y="2.562" />
+        <Point X="16.25" Y="2.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAAwAAAAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Portal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sample">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAAAAAEAAAAAAAAAAAAAAAAAABACAJAAAAE=</HashCode>
+      <FileName>Sample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="DynamicObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.625" />
+        <Point X="11.75" Y="1.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAQAAAAAwAAAAAAABggAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteManager" Collapsed="true">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAIAAAAABAABACAAAEAACAgIAQAAQAABAAAAA=</HashCode>
+      <FileName>SpriteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScreen">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="_gameQuit" Hidden="true" />
+      <Field Name="_gameStart" Hidden="true" />
+      <Method Name="Frame" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Method Name="IsGameQuit" Hidden="true" />
+      <Method Name="IsNextScene" Hidden="true" />
+      <Method Name="Release" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAAAAAEAAAAAAAAAACAAABAGABAAAhE=</HashCode>
+      <FileName>TitleScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseObject" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAGQABCAQAISgQAiKgAAAAxAABBgsQAARgCABAWAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision2D">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAEAAAQAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Collision2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSCalculator" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABAAAAQAAAAAgAAAAAABACABAAAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\FPSCalculator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Device" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="5.021" />
+        <Point X="1.25" Y="5.261" />
+        <Point X="2.26" Y="5.261" />
+        <Point X="2.26" Y="2.096" />
+        <Point X="2.5" Y="2.096" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAACAAAAAAAAAAAAIAAAAAAgBACABAEEMM=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\GameCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input" Collapsed="true">
+    <Position X="1.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAAAAIAAAAAAAAAAQAAAAAAAAAABADABAAAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollObject" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="StaticObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="1.562" />
+        <Point X="16.25" Y="1.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAACgAAAAgAAAAAAAAAAAAAAAAAEAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\ScrollObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicObject" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACABABAAAAAAAAAABACAAAAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\DynamicObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_BGMusic" Hidden="true" />
+      <Field Name="_device" Hidden="true" />
+      <Field Name="_immediateContext" Hidden="true" />
+      <Field Name="_isNextScene" Hidden="true" />
+      <Method Name="Frame" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Method Name="Release" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+      <Method Name="SetDevice" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAgAACAgAAAABAGABAAABE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAEAAAABBAAAAAAAAAAAgEAAABAKARAAAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManager" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAACAAQAAEAACAAAAACAgAAAAAAAABAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAoAAgAAAAACAAAAAAAAAAAAQAEAAAJBAmAhCAAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAgAIAAQAAAAAAIQAAAAAAAABAGABQAAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticObject" Collapsed="true">
+    <Position X="14.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\StaticObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Device">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="_device" Hidden="true" />
+      <Field Name="_factory" Hidden="true" />
+      <Field Name="_immediateContext" Hidden="true" />
+      <Field Name="_rtv" Hidden="true" />
+      <Field Name="_swapChain" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAgAEAAAAAAAAAAAAAAIAAAAAAgAAIABACAFACAAE=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAAAEAACAAAAAAAAAAgEAAAAAAABAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureManager" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAAABAAAAAAABACAgAAAQAAAABAAAAA=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\TextureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="_clientHeight" Hidden="true" />
+      <Field Name="_clientWidth" Hidden="true" />
+      <Field Name="_instance" Hidden="true" />
+      <Field Name="_rectClient" Hidden="true" />
+      <Field Name="_rectWindow" Hidden="true" />
+      <Field Name="_wnd" Hidden="true" />
+      <Field Name="_wndStyle" Hidden="true" />
+      <Method Name="CentreWindow" Hidden="true" />
+      <Method Name="InitInstance" Hidden="true" />
+      <Field Name="msgList" Hidden="true" />
+      <Method Name="MsgProc" Hidden="true" />
+      <Method Name="MyRegisterClass" Hidden="true" />
+      <Method Name="SetWindow" Hidden="true" />
+      <Method Name="Window" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgECAAAAAECBAABAAAAAAABAAAAAAQAAIAAKAiAAAI=</HashCode>
+      <FileName>C:\Users\xpsa0\source\repos\PSA_project\include\PSACore\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Gem" Collapsed="true">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="StaticObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.875" Y="1.941" />
+        <Point X="15.875" Y="2.095" />
+        <Point X="15.961" Y="2.095" />
+        <Point X="15.961" Y="3.313" />
+        <Point X="16.25" Y="3.313" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Emote" Collapsed="true">
+    <Position X="14.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="StaticObject" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.938" Y="1.941" />
+        <Point X="15.938" Y="2.504" />
+        <Point X="15.75" Y="2.504" />
+        <Point X="15.75" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAQAAAAAQAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>InGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PopUpScreen" Collapsed="true">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <InheritanceLine Type="StaticObject" FixedFromPoint="true">
+      <Path>
+        <Point X="15.938" Y="1.941" />
+        <Point X="15.938" Y="3.346" />
+        <Point X="16" Y="3.346" />
+        <Point X="16" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>InGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Button" Collapsed="true">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="StaticObject" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="15.938" Y="1.941" />
+        <Point X="15.938" Y="2.095" />
+        <Point X="15.993" Y="2.095" />
+        <Point X="15.993" Y="3.346" />
+        <Point X="15.75" Y="3.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAgAAIAAwAAAAAAAAAAAAABAAAAAAAAE=</HashCode>
+      <FileName>TitleScreen.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="PlayerState">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAgAAAAAAAAAACAAAgAAAAAAAAoAAAAIA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Colour">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAgAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
